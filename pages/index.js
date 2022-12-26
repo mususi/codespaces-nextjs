@@ -19,7 +19,7 @@ function Home() {
   useEffect(() => {
     const r = setInterval(() => {
       increment()
-    }, 1000)
+    }, 10000)
 
     return () => {
       clearInterval(r)
